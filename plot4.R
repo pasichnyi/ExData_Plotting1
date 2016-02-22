@@ -30,7 +30,7 @@ plot4 <- function (datafile="household_power_consumption.txt"){
     lines(hpc$DateTime,hpc$Sub_metering_2,col="red")
     lines(hpc$DateTime,hpc$Sub_metering_3,col="blue")
     # Adding legend
-    legend("topright",names(hpc[,5:7]),col=c("black","red","blue"),lty=1,cex=0.75)
+    legend("topright",names(hpc[,5:7]),col=c("black","red","blue"),lty=1,cex=0.75,bty="n")
     
     # Adding 4th graph
     plot(hpc$DateTime,hpc$Global_reactive_power,type="l",xlab="datetime",ylab="Global reactive power")
