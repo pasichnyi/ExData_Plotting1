@@ -1,4 +1,32 @@
 ## Introduction
+This HA1 assignment for the Exploratory Data Analysis course.
+The aim was to reproduce 4 png files with R base graphic system.
+
+## Results
+
+### Plot 1
+
+
+![plot of chunk plot1](plot1.png) 
+
+
+### Plot 2
+
+![plot of chunk plot2](plot2.png) 
+
+
+### Plot 3
+
+![plot of chunk plot3](plot3.png) 
+
+
+### Plot 4
+
+![plot of chunk plot4](plot4.png) 
+
+
+
+## Initial assignment description
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
